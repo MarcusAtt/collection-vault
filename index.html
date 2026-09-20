@@ -9,3 +9,20 @@
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect x='4' y='4' width='56' height='56' rx='14' fill='%232e78c7' stroke='%238dccff' stroke-width='3'/%3E%3Ctext x='32' y='38' text-anchor='middle' font-family='Arial,sans-serif' font-size='22' font-weight='700' fill='white'%3ECV%3C/text%3E%3Cpath d='M51 7l2.2 5.8L59 15l-5.8 2.2L51 23l-2.2-5.8L43 15l5.8-2.2z' fill='%23ffca6b'/%3E%3C/svg%3E">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="shortcut icon" href="favicon.svg?v=3" type="image/svg+xml"><link rel="icon" href="/col
+
+<script>
+const realCatalogItems=[
+{name:'Funko Pop! Marvel Spider-Man #1422',brand:'Funko',category:'Figure',range:'$15–$30',price:22,image:'https://funko.com/on/demandware.static/-/Sites-funko-master-catalog/default/dwd96ef53c/images/funko/upload/82500_Marvel_NC_SpiderMan_POP_GLAM-1-WEB.png',notes:'Official Funko product photo · New Classics window box'},
+{name:'Funko Pop! Pokémon Pikachu #353',brand:'Funko',category:'Figure',range:'$18–$35',price:25,image:'https://media.cdn.kaufland.de/product-images/2048x2048/ea2131aa0bbdaa775574f86b8b58c477.webp',notes:'Real boxed product photo · Pop! Games'},
+{name:'Funko Pop! Pokémon Pikachu 10-inch',brand:'Funko',category:'Figure',range:'$55–$100',price:75,image:'https://files.cardgameshop.be/cache/products/images/r/c/m/1500x1500/c/1/4ba34f8bc4e68d18246dcb9062ca35034d88be/funko-pop-pikachu-10-pikachu-353-quot-cardgameshop.webp',notes:'Real boxed product photo · Oversized Pikachu'},
+{name:'LEGO Boxed Collection',brand:'LEGO',category:'Set',range:'$25–$150',price:75,image:'https://commons.wikimedia.org/wiki/Special:FilePath/My%20Lego%20box.jpg',notes:'Real collector photo · LEGO brick box'},
+{name:'LEGO Bits Box',brand:'LEGO',category:'Parts',range:'$20–$90',price:45,image:'https://commons.wikimedia.org/wiki/Special:FilePath/LEGO%20Bits%20Box%202.jpg',notes:'Real collector photo · LEGO parts storage'},
+{name:'LEGO Collectible Minifigures Series 7',brand:'LEGO',category:'Minifigure',range:'$8–$35',price:18,image:'https://commons.wikimedia.org/wiki/Special:FilePath/LEGO%20Collectible%20Minifigures%20Series%207%20Unpacked%20%287083045923%29.jpg',notes:'Real collector photo · Series 7 minifigures'},
+{name:'Pokémon Card Collection',brand:'Pokémon',category:'Trading Cards',range:'$20–$250',price:85,image:'https://commons.wikimedia.org/wiki/Special:FilePath/Pokemon%20collection.jpg',notes:'Real collector photo · Pokémon cards'},
+{name:'Pokémon TCG Collection',brand:'Pokémon',category:'Trading Cards',range:'$30–$300',price:110,image:'https://commons.wikimedia.org/wiki/Special:FilePath/2010%20CHINE%20%284566213248%29.jpg',notes:'Real collector photo · Pokémon Trading Card Game'},
+{name:'Pokémon Trading Card Game Logo Set',brand:'Pokémon',category:'Trading Cards',range:'$10–$80',price:30,image:'https://commons.wikimedia.org/wiki/Special:FilePath/Pok%C3%A9mon%20Trading%20Card%20Game%20logo.svg',notes:'Catalog reference image · Pokémon TCG'}
+];
+demo.push(...realCatalogItems);
+if(typeof catalog==='function')catalog();
+if(typeof render==='function')render();
+</script>
